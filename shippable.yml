@@ -4,9 +4,8 @@ python:
     - 3.3
 env:
  global:
-   - projectID=564ea61bd78fc6fc59652db9
-   - secure: bwGZB0Z8wncJBcBeSM3I0m1TErAAZaEq2X0Ezt0dvBuiJebvEfZPKIbIa+Q9oXU6l+iOgn6JSZhoCuUDBSlHjCXC8hJvnTLlCh+6OOLW6GauYzzvIkyAZc+p2IM7OTgdnLmXlfN8urfZlf4N3z3inD+aFqq/dTdK9SIPYqBrqpHs7m3CQlHddE7FOJ+UZPwYv/dB4QzZ9rZ+mJA2Z4rFGCTF5tTSoR3gaSXpr9E+xOq8bB14dlEmVGYMPYpSd/OWOtZWl385DG0R80L3SMLceUZwBzO4dSPQ9H5ehHcP+XZEBwHwnNrhadPeNK5LyE79qpjPg14vtRqa/1hdvB2kdQ==
-   
+   - projectID=5672901d069aa01300433045
+   - secure: jld5+yTBDvEHA0BbmAmErKQBUYPUoL/bwIIjzxffZnk6ke7c997fTFKFbrzk1rxM03/c/6Mi3MmbNcUNb6Y6m6i4E0ZzMVA2G75Etr0WA7D3xNcaRFx0NawhagX0o5uRK+lrH5TaIH10Mo8fnP9Uw9Glf66du7ORHOB1RxRxhlhdQzbqcyxceYiAP1npah64sEUL+i0Y1YKmBX3U/SFFReFKOyqPQQJOmWBjqF30v48GzJvVhgJm8PrxN08Cf9Q7lIxXeTPSrw4zYAxOrRhDFACJHU9kE4ECVRJEIDMnXcBTmqGqm9bOU2azWuV76q/cskAaiL8CDKrhoRxPFHwBWA==
 #script:
 # - curl -H "Authorization: apiToken $apiToken" https://api.shippable.com
 # - curl -H "Authorization: apiToken $apiToken" \-H "Content-Type: application/json" \-d "{\"projectId\": \"011d01\"}"https://api.shippable.com/workflow/enableRepoBuild
@@ -14,4 +13,4 @@ install: true
 script: true
 
 after_success:
-- 'curl -H "Authorization: apiToken $apiToken" -H "Content-Type: application/json" -d "{\"projectId\": \"$projectID\"}" https://apibeta.shippable.com/projects/564ea61bd78fc6fc59652db9/newBuild'
+- 'curl -H "Authorization: apiToken $apiToken" -H "Content-Type: application/json" -d "{\"projectId\": \"$projectID\"}" https://apibeta.shippable.com/projects/5672901d069aa01300433045/newBuild'
