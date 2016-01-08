@@ -5,9 +5,8 @@ python:
 env:
  global:
    - projectID=56727457d78fc6fc5966c347
-   - secure: PGB1zO27joo/Vr++0FY937DtRICrnDljbTLqIUnatdAkky495EXOzCNQYiTeovAhwofOzn+GhSIU3ea7gPqUqKLV1t0u9M5Xzbh0rCKiqKaipV6BUFhGa/T7jJMtaKU6fav6chx0ad6ozOn6aET5RQWdXP9u7B9GbPue1dVbBmdEf/fewl8H1F835GjN3wKDGdnmrZ0CSAqOYIAQlcC9skPmuFSWdVyu4cn3L9cEYHytIyiZyRKZXKrbTyknt8c7RkTkEoiT2TaNMnP3UIcAoqo4IPU2vqYXGop5Qkfqy8tz5rFlupBzvdFsik2Zuv9a1f52JEp5/S3K67DTLqWJ4Q==
-   #- secure: NB5KqCXXEwsa6okx/3pcANRqpLIXoLgyzNL2xBUxwoWA9buTtMpPl0lggvOadROOU40h86TGnbPN7VYu449MTr3T7kIAIOPGBXvdEQojUJpKzo4cAsF8LHUIThotugV/dM2kUVFqBbBdQG15lt6/xUtXGlbQ+ILmLLA7GIoIVSIcaInD196CrZ8MMD6MBrL3zWeYFwdR0VVhDz4z+Lif/K6WpDLY8V3n342WTurbQYnF+jDc4eIlH95snSOg+v9x5iWp7TFYyO/d+JkGn5V/ouiuZh+QtYjKuQlbBVkd8A+/EGuS1EmFTeJDHpc8cm/Dtm2lKanBW13rZsSQNhL7rQ==
- 
+   - secure: bwGZB0Z8wncJBcBeSM3I0m1TErAAZaEq2X0Ezt0dvBuiJebvEfZPKIbIa+Q9oXU6l+iOgn6JSZhoCuUDBSlHjCXC8hJvnTLlCh+6OOLW6GauYzzvIkyAZc+p2IM7OTgdnLmXlfN8urfZlf4N3z3inD+aFqq/dTdK9SIPYqBrqpHs7m3CQlHddE7FOJ+UZPwYv/dB4QzZ9rZ+mJA2Z4rFGCTF5tTSoR3gaSXpr9E+xOq8bB14dlEmVGYMPYpSd/OWOtZWl385DG0R80L3SMLceUZwBzO4dSPQ9H5ehHcP+XZEBwHwnNrhadPeNK5LyE79qpjPg14vtRqa/1hdvB2kdQ==
+   
 #script:
 # - curl -H "Authorization: apiToken $apiToken" https://api.shippable.com
 # - curl -H "Authorization: apiToken $apiToken" \-H "Content-Type: application/json" \-d "{\"projectId\": \"011d01\"}"https://api.shippable.com/workflow/enableRepoBuild
