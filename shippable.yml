@@ -14,4 +14,4 @@ install: true
 script: true
 
 after_success:
-- 'curl -H "Authorization: apiToken $apiToken2" -H "Content-Type: application/json" -d "{\"projectId\": \"$projectID\"}" https://api.shippable.com/projects/56727457d78fc6fc5966c347/newBuild'
+- 'curl -H "Authorization: apiToken $apiToken2" -H "Content-Type: application/json" -d "{\"projectId\": \"$projectID\"}" https://apibeta.shippable.com/projects/56727457d78fc6fc5966c347/newBuild'
